@@ -1,0 +1,157 @@
+/*
+Table of Contents:
+- Header
+- Table
+- Form
+- Sections
+    - Landing
+    - Content
+        - Articles
+    - Provinces
+        - Dropdowns
+*/
+
+@media screen and (min-width: 64em) {
+    /* TABLE */
+    .table-container {
+        max-width: 64rem;
+        margin: 0 auto;
+        padding: 0 1rem;
+
+        box-shadow: none;
+    }
+
+    table {
+        border: solid 0.0625rem #eeeeee;
+    }
+
+    table a {
+        font-weight: 600;
+        text-decoration-style: dotted;
+    }
+
+    /* FORM */
+    .newsletter-container {
+        max-width: 64rem;
+        margin: 0 auto;
+        padding: 0 1rem;
+    }
+
+    .newsletter {
+        max-width: 64rem;
+        margin: 8rem auto;
+    }
+
+    form {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: end;
+    }
+
+    input[type="text"]:hover,
+    input[type="text"]:focus,
+    input[type="email"]:hover,
+    input[type="email"]:focus {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    
+    input[type="submit"] {
+        grid-column: span 2;
+        width: calc(100% - 2rem);
+        margin: 0 1rem 1rem 1rem;
+        
+        border: solid 0.0625rem var(--white);
+    }
+
+    input[type="submit"]:hover,
+    input[type="submit"]:focus {
+        background-color: rgba(0, 0, 0, 0.25);
+    }
+    
+    input[type="submit"]:active {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    /* HEADER */
+    header nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header li:last-child {
+        display: none;
+    }
+
+    #Nav {
+        display: flex !important;
+    }
+    
+    #Nav a {
+        border: none;
+    }
+
+    /* SECTIONS - LANDING */
+    .landing h1 {
+        font-size: 4rem;
+    }
+
+    .landing a:hover,
+    .landing a:focus {
+        text-decoration: underline;
+    }
+
+    /* SECTIONS - CONTENT */
+    #Content {
+        max-width: 64rem;
+        margin: 8rem auto 0 auto;
+    }
+
+    /* SECTIONS - CONTENT - ARTICLES */
+    .articles {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        margin: 8rem 1rem;
+    }
+
+    article {
+        overflow: hidden;
+
+        border-radius: 1rem;
+        box-shadow: 0 0 1rem rgba(0, 0, 0, 0.25);
+    }
+
+    article a {
+        display: block;
+        padding: 1rem;
+    }
+
+    article:hover,
+    article:focus {
+        cursor: pointer;
+    }
+
+    article:hover a,
+    article:focus a {
+        text-decoration: underline;
+    }
+
+    /* SECTIONS - PROVINCES */
+    .provinces-container {
+        max-width: 64rem;
+        margin: 0 auto;
+        padding: 0 1rem;
+    }
+
+    .provinces {
+        max-width: 64rem;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    summary:hover,
+    summary:focus {
+        background-color: #eeeeee;
+    }
+}

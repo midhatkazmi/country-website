@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" width="512" height="512"><svg id="SvgjsSvg1487" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 512 512">
+  <!-- Generator: Adobe Illustrator 29.2.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 116)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #fff;
+      }
+
+      .st1 {
+        fill: #01411c;
+      }
+    </style>
+  </defs>
+  <circle class="st1" cx="256" cy="256" r="256"></circle>
+  <path class="st0" d="M412.5,338.88c-68.49,60.88-173.36,54.71-234.24-13.78-60.88-68.49-54.71-173.36,13.78-234.24,2.87-2.55,5.82-4.98,8.81-7.3-72.99,23.33-125.85,91.7-125.85,172.43,0,99.96,81.04,181,181,181,73.22,0,136.27-43.48,164.78-106.02-2.65,2.7-5.41,5.34-8.28,7.9Z"></path>
+  <polygon class="st0" points="355.43 196.95 398.24 206.33 369.12 173.57 391.28 135.75 351.12 153.32 322 120.56 326.3 164.18 286.15 181.76 328.96 191.14 333.27 234.77 355.43 196.95"></polygon>
+</svg><style>@media (prefers-color-scheme: light) { :root { filter: none; } }
+@media (prefers-color-scheme: dark) { :root { filter: none; } }
+</style></svg>
